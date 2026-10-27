@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "loose-round-diamond",
+      "name": "Round brilliant diamond",
+      "group": "Diamond",
+      "shape": "Round brilliant",
+      "status": "sourcing-reference",
+      "availability": "unverified",
+      "price": null,
+      "specifications": null,
+      "gradingReport": null,
+      "description": "A round brilliant diamond sourcing direction. Exact stone, measurements, treatment, origin, grading documentation and price require supplier confirmation.",
+      "imagery": {
+        "src": "/images/catalog/loose-round-diamond.png",
+        "alt": "AI-generated representative studio concept of a loose round brilliant diamond; not a photograph of an available stone",
+        "rights": "AI-generated original project concept image",
+        "representation": "generated-concept"
+      },
+      "provenance": {
+        "type": "owner-sourcing-direction",
+        "sourceUrl": null,
+        "scope": "Loose-stone style requested by owner; no supplier parcel, grading report, availability or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "loose-oval-diamond",
+      "name": "Oval diamond",
+      "group": "Diamond",
+      "shape": "Oval",
+      "status": "sourcing-reference",
+      "availability": "unverified",
+      "price": null,
+      "specifications": null,
+      "gradingReport": null,
+      "description": "A oval diamond sourcing direction. Exact stone, measurements, treatment, origin, grading documentation and price require supplier confirmation.",
+      "imagery": {
+        "src": "/images/catalog/loose-oval-diamond.png",
+        "alt": "AI-generated representative studio concept of a loose oval diamond; not a photograph of an available stone",
+        "rights": "AI-generated original project concept image",
+        "representation": "generated-concept"
+      },
+      "provenance": {
+        "type": "owner-sourcing-direction",
+        "sourceUrl": null,
+        "scope": "Loose-stone style requested by owner; no supplier parcel, grading report, availability or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "loose-emerald-cut-diamond",
+      "name": "Emerald-cut diamond",
+      "group": "Diamond",
+      "shape": "Emerald cut",
+      "status": "sourcing-reference",
+      "availability": "unverified",
+      "price": null,
+      "specifications": null,
+      "gradingReport": null,
+      "description": "A emerald-cut diamond sourcing direction. Exact stone, measurements, treatment, origin, grading documentation and price require supplier confirmation.",
+      "imagery": {
+        "src": "/images/catalog/loose-emerald-cut-diamond.png",
+        "alt": "AI-generated representative studio concept of a loose emerald-cut diamond; not a photograph of an available stone",
+        "rights": "AI-generated original project concept image",
+        "representation": "generated-concept"
+      },
+      "provenance": {
+        "type": "owner-sourcing-direction",
+        "sourceUrl": null,
+        "scope": "Loose-stone style requested by owner; no supplier parcel, grading report, availability or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "loose-pear-diamond",
+      "name": "Pear-shaped diamond",
+      "group": "Diamond",
+      "shape": "Pear",
+      "status": "sourcing-reference",
+      "availability": "unverified",
+      "price": null,
+      "specifications": null,
+      "gradingReport": null,
+      "description": "A pear-shaped diamond sourcing direction. Exact stone, measurements, treatment, origin, grading documentation and price require supplier confirmation.",
+      "imagery": {
+        "src": "/images/catalog/concept-diamond-pear.png",
+        "alt": "AI-generated representative studio concept of a loose pear-shaped diamond; not a photograph of an available stone",
+        "rights": "AI-generated original project concept image",
+        "representation": "generated-concept"
+      },
+      "provenance": {
+        "type": "owner-sourcing-direction",
+        "sourceUrl": null,
+        "scope": "Loose-stone style requested by owner; no supplier parcel, grading report, availability or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "loose-cushion-diamond",
+      "name": "Cushion-cut diamond",
+      "group": "Diamond",
+      "shape": "Cushion",
+      "status": "sourcing-reference",
+      "availability": "unverified",
+      "price": null,
+      "specifications": null,
+      "gradingReport": null,
+      "description": "A cushion-cut diamond sourcing direction. Exact stone, measurements, treatment, origin, grading documentation and price require supplier confirmation.",
+      "imagery": {
+        "src": "/images/catalog/loose-cushion-diamond.png",
+        "alt": "AI-generated representative studio concept of a loose cushion-cut diamond; not a photograph of an available stone",
+        "rights": "AI-generated original project concept image",
+        "representation": "generated-concept"
+      },
+      "provenance": {
+        "type": "owner-sourcing-direction",
+        "sourceUrl": null,
+        "scope": "Loose-stone style requested by owner; no supplier parcel, grading report, availability or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "loose-radiant-diamond",
+      "name": "Radiant-cut diamond",
+      "group": "Diamond",
+      "shape": "Radiant",
+      "status": "sourcing-reference",
+      "availability": "unverified",
+      "price": null,
+      "specifications": null,
+      "gradingReport": null,
+      "description": "A radiant-cut diamond sourcing direction. Exact stone, measurements, treatment, origin, grading documentation and price require supplier confirmation.",
+      "imagery": {
+        "src": "/images/catalog/loose-radiant-diamond.png",
+        "alt": "AI-generated representative studio concept of a loose radiant-cut diamond; not a photograph of an available stone",
+        "rights": "AI-generated original project concept image",
+        "representation": "generated-concept"
+      },
+      "provenance": {
+        "type": "owner-sourcing-direction",
+        "sourceUrl": null,
+        "scope": "Loose-stone style requested by owner; no supplier parcel, grading report, availability or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "loose-marquise-diamond",
+      "name": "Marquise diamond",
+      "group": "Diamond",
+      "shape": "Marquise",
+      "status": "sourcing-reference",
+      "availability": "unverified",
+      "price": null,
+      "specifications": null,
+      "gradingReport": null,
+      "description": "A marquise diamond sourcing direction. Exact stone, measurements, treatment, origin, grading documentation and price require supplier confirmation.",
+      "imagery": {
+        "src": "/images/catalog/loose-marquise-diamond.png",
+        "alt": "AI-generated representative studio concept of a loose marquise diamond; not a photograph of an available stone",
+        "rights": "AI-generated original project concept image",
+        "representation": "generated-concept"
+      },
+      "provenance": {
+        "type": "owner-sourcing-direction",
+        "sourceUrl": null,
+        "scope": "Loose-stone style requested by owner; no supplier parcel, grading report, availability or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "loose-princess-diamond",
+      "name": "Princess-cut diamond",
+      "group": "Diamond",
+      "shape": "Princess",
+      "status": "sourcing-reference",
+      "availability": "unverified",
+      "price": null,
+      "specifications": null,
+      "gradingReport": null,
+      "description": "A princess-cut diamond sourcing direction. Exact stone, measurements, treatment, origin, grading documentation and price require supplier confirmation.",
+      "imagery": {
+        "src": "/images/catalog/loose-princess-diamond.png",
+        "alt": "AI-generated representative studio concept of a loose princess-cut diamond; not a photograph of an available stone",
+        "rights": "AI-generated original project concept image",
+        "representation": "generated-concept"
+      },
+      "provenance": {
+        "type": "owner-sourcing-direction",
+        "sourceUrl": null,
+        "scope": "Loose-stone style requested by owner; no supplier parcel, grading report, availability or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "loose-blue-sapphire",
+      "name": "Blue sapphire",
+      "group": "Colored gemstone",
+      "shape": "Oval",
+      "status": "sourcing-reference",
+      "availability": "unverified",
+      "price": null,
+      "specifications": null,
+      "gradingReport": null,
+      "description": "A blue sapphire sourcing direction. Exact stone, measurements, treatment, origin, grading documentation and price require supplier confirmation.",
+      "imagery": {
+        "src": "/images/catalog/loose-blue-sapphire.png",
+        "alt": "AI-generated representative studio concept of a loose blue sapphire; not a photograph of an available stone",
+        "rights": "AI-generated original project concept image",
+        "representation": "generated-concept"
+      },
+      "provenance": {
+        "type": "owner-sourcing-direction",
+        "sourceUrl": null,
+        "scope": "Loose-stone style requested by owner; no supplier parcel, grading report, availability or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "loose-ruby",
+      "name": "Ruby",
+      "group": "Colored gemstone",
+      "shape": "Oval",
+      "status": "sourcing-reference",
+      "availability": "unverified",
+      "price": null,
+      "specifications": null,
+      "gradingReport": null,
+      "description": "A ruby sourcing direction. Exact stone, measurements, treatment, origin, grading documentation and price require supplier confirmation.",
+      "imagery": {
+        "src": "/images/catalog/loose-ruby.png",
+        "alt": "AI-generated representative studio concept of a loose ruby; not a photograph of an available stone",
+        "rights": "AI-generated original project concept image",
+        "representation": "generated-concept"
+      },
+      "provenance": {
+        "type": "owner-sourcing-direction",
+        "sourceUrl": null,
+        "scope": "Loose-stone style requested by owner; no supplier parcel, grading report, availability or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "loose-green-emerald",
+      "name": "Emerald",
+      "group": "Colored gemstone",
+      "shape": "Emerald cut",
+      "status": "sourcing-reference",
+      "availability": "unverified",
+      "price": null,
+      "specifications": null,
+      "gradingReport": null,
+      "description": "A emerald sourcing direction. Exact stone, measurements, treatment, origin, grading documentation and price require supplier confirmation.",
+      "imagery": {
+        "src": "/images/catalog/loose-green-emerald.png",
+        "alt": "AI-generated representative studio concept of a loose emerald; not a photograph of an available stone",
+        "rights": "AI-generated original project concept image",
+        "representation": "generated-concept"
+      },
+      "provenance": {
+        "type": "owner-sourcing-direction",
+        "sourceUrl": null,
+        "scope": "Loose-stone style requested by owner; no supplier parcel, grading report, availability or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "loose-pink-sapphire",
+      "name": "Pink sapphire",
+      "group": "Colored gemstone",
+      "shape": "Oval",
+      "status": "sourcing-reference",
+      "availability": "unverified",
+      "price": null,
+      "specifications": null,
+      "gradingReport": null,
+      "description": "A pink sapphire sourcing direction. Exact stone, measurements, treatment, origin, grading documentation and price require supplier confirmation.",
+      "imagery": {
+        "src": "/images/catalog/loose-pink-sapphire.png",
+        "alt": "AI-generated representative studio concept of a loose pink sapphire; not a photograph of an available stone",
+        "rights": "AI-generated original project concept image",
+        "representation": "generated-concept"
+      },
+      "provenance": {
+        "type": "owner-sourcing-direction",
+        "sourceUrl": null,
+        "scope": "Loose-stone style requested by owner; no supplier parcel, grading report, availability or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    }
+  ]
+}

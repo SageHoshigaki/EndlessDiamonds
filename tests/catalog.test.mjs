@@ -21,19 +21,35 @@ test("catalog has unique identities, complete provenance and honest availability
     assert.equal(p.availability, "unverified");
     assert.equal(p.provenance.inventoryVerifiedAt, null);
     assert.ok(p.provenance.scope);
-    assert.ok(
+    if (p.imagery[0].src) assert.ok(
       existsSync(new URL("../public" + p.imagery[0].src, import.meta.url)),
     );
     assert.equal(p.imagery[0].placeholder, true);
-    assert.ok(["editorial-photo", "generated-concept"].includes(p.imagery[0].representation));
+    assert.ok(["editorial-photo", "generated-concept", "pending-exact-photo"].includes(p.imagery[0].representation));
   }
 });
-test("every catalog item has a product photo or disclosed concept photo", () => {
+test("watch images are matched project assets or clearly pending exact photos", () => {
   assert.equal(items.filter((p) => p.imagery[0].representation === "editorial-photo").length, 8);
-  assert.equal(items.filter((p) => p.imagery[0].representation === "generated-concept").length, 72);
+  assert.equal(items.filter((p) => p.imagery[0].representation === "pending-exact-photo").length, 57);
+  for (const p of items.filter((p) => p.category === "watches")) {
+    assert.ok(p.manufacturerContext && p.provenance.sourceUrl);
+    assert.notEqual(p.imagery[0].representation, "generated-concept");
+  }
   for (const p of items.filter((p) => p.imagery[0].representation === "generated-concept")) {
     assert.match(p.imagery[0].alt, /not a photograph of/);
     assert.match(p.imagery[0].rights, /AI-generated/);
+  }
+});
+test("loose-stone page has distinct reference-only entries and concept photos", () => {
+  const stones = JSON.parse(readFileSync(new URL("../src/data/loose-stones.json", import.meta.url))).items;
+  assert.equal(stones.length, 12);
+  assert.equal(new Set(stones.map((s) => s.id)).size, stones.length);
+  for (const stone of stones) {
+    assert.equal(stone.status, "sourcing-reference");
+    assert.equal(stone.availability, "unverified");
+    assert.equal(stone.price, null);
+    assert.equal(stone.specifications, null);
+    assert.ok(existsSync(new URL("../public" + stone.imagery.src, import.meta.url)));
   }
 });
 test("watch share and planning targets are 75%, targets are separate from records", () => {
@@ -84,6 +100,25 @@ test("WhatsApp fails closed for absent or malformed number and encodes message e
   assert.equal(url.hostname, "wa.me");
   assert.equal(url.pathname, "/12025550123");
   assert.equal(url.searchParams.get("text"), msg);
-  assert.match(msg, /not verified available stock/);
-  assert.match(msg, new RegExp(items[0].id));
+  assert.match(msg, /confirm availability, exact details, condition and price/i);
+  assert.doesNotMatch(msg, /catalog id|sample|source listing/i);
+});
+test("imported watch catalog keeps exact listing images paired with inquiry-only records", () => {
+  const imported = JSON.parse(readFileSync(new URL("../public/data/wrist-watches.json", import.meta.url))).items;
+  assert.ok(imported.length > 2000);
+  assert.equal(new Set(imported.map((p) => p.id)).size, imported.length);
+  for (const p of imported) {
+    assert.equal(p.category, "watches");
+    assert.equal(p.status, "reference");
+    assert.equal(p.price, null);
+    assert.equal(p.availability, "unverified");
+    assert.equal(p.specifications, null);
+    assert.equal(p.provenance.inventoryVerifiedAt, null);
+    assert.equal(p.provenance.type, "authorized-supplier-listing");
+    assert.ok(p.model && p.brand && p.sourceDescription);
+    assert.ok(p.imagery[0].src.startsWith("https://cdn.shopify.com/"));
+    assert.equal(p.imagery[0].src, p.gallery[0]);
+    assert.ok(p.provenance.sourceUrl.startsWith("https://wristaficionado.com/products/"));
+    assert.doesNotMatch(p.imagery[0].alt, /Wrist Aficionado/i);
+  }
 });

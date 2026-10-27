@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { ArrowRight, Heart, Menu, X, ArrowUpRight } from "lucide-react";
 import catalog from "./data/catalog.json";
+import looseStones from "./data/loose-stones.json";
 import {
   categories,
   filterCatalog,
@@ -9,9 +10,14 @@ import {
   productMessage,
 } from "./lib/catalog";
 import "./catalog.css";
-const items = catalog.items;
+const baseItems = catalog.items;
 const number = import.meta.env.VITE_WHATSAPP_NUMBER;
 const pathFor = (p) => `#/products/${p.id}`;
+const thumbnailFor = (src) => {
+  const url = new URL(src);
+  url.searchParams.set("width", "180");
+  return url.toString();
+};
 function useRoute() {
   const [route, set] = useState(location.hash.slice(1) || "/");
   useEffect(() => {
@@ -30,24 +36,30 @@ function Logo() {
   );
 }
 function Art({ p, kind, large = false }) {
+  if (p?.imagery[0].representation === "pending-exact-photo") {
+    return (
+      <figure className={`art pending-art ${large ? "large" : ""}`}>
+        <div className="pending-art-inner" role="img" aria-label={`Exact photograph of ${p.brand} ${p.model} pending`}>
+          <span>EXPRESS DIAMONDS</span>
+          <strong>{p.brand}</strong>
+          <small>{p.model}</small>
+          <em>Image coming soon</em>
+        </div>
+      </figure>
+    );
+  }
   return (
     <figure className={`art ${large ? "large" : ""} ${p?.imagery[0].representation !== "illustration" ? "photo" : ""}`}>
       <img
         src={p?.imagery[0].src || {watches:"/images/category-watch.jpeg",diamonds:"/images/category-diamond.jpeg","fine-jewelry":"/images/category-jewelry.jpeg"}[kind]}
-        alt={p?.imagery[0].alt || `Editorial ${kind} photograph from the previous Express Diamonds site`}
+        alt={p?.imagery[0].representation === "generated-concept" ? `${p.model} — illustrative image` : p?.imagery[0].alt || `${kind} jewelry`}
         loading={large ? "eager" : "lazy"}
         onError={(e) => {
           e.currentTarget.onerror = null;
           e.currentTarget.src = "/images/catalog/diamonds.svg";
         }}
       />
-      <figcaption>
-        {p?.imagery[0].representation === "editorial-photo"
-          ? "REPRESENTATIVE PHOTO · AVAILABILITY UNVERIFIED"
-          : p?.imagery[0].representation === "generated-concept"
-            ? "CONCEPT PHOTO · NOT THE NAMED PRODUCT"
-            : p ? "ILLUSTRATION · PRODUCT PHOTOGRAPHY PENDING" : "EDITORIAL PHOTOGRAPH"}
-      </figcaption>
+      {p?.imagery[0].representation === "generated-concept" && <figcaption>Illustrative image</figcaption>}
     </figure>
   );
 }
@@ -81,7 +93,7 @@ function Inquiry({ message }) {
 }
 function Card({ p, saved, toggle }) {
   return (
-    <article className="card">
+    <article className={`card ${p.provenance.type === "authorized-supplier-listing" ? "supplier" : ""}`}>
       <div className="card-art">
         <a href={pathFor(p)} aria-label={`View ${p.brand} ${p.model}`}>
           <Art p={p} />
@@ -100,11 +112,7 @@ function Card({ p, saved, toggle }) {
         <a href={pathFor(p)}>
           <h3>{p.model}</h3>
         </a>
-        <p>
-          {p.status === "reference"
-            ? "Reference piece · availability unverified"
-            : "Verified available"}
-        </p>
+        <p>Inquire for details</p>
         <a className="text-link" href={pathFor(p)}>
           Discover the piece <ArrowRight size={14} />
         </a>
@@ -121,21 +129,22 @@ function Grid({ list, saved, toggle }) {
     </div>
   );
 }
-function Collection({ category = "all", saved, toggle, onlySaved = false }) {
+function Collection({ category = "all", saved, toggle, items, supplierLoading, onlySaved = false }) {
   const [query, setQuery] = useState(""),
     [brand, setBrand] = useState("all"),
-    [status, setStatus] = useState("all"),
     [sort, setSort] = useState("featured"),
     [limit, setLimit] = useState(24);
-  const source = onlySaved ? items.filter((p) => saved.includes(p.id)) : items;
+  const source = onlySaved ? items.filter((p) => saved.includes(p.id))
+    : category === "watches"
+      ? [...items.filter((p) => p.provenance.type === "authorized-supplier-listing"), ...items.filter((p) => p.provenance.type !== "authorized-supplier-listing")]
+      : items;
   const filtered = filterCatalog(source, {
     category,
     query,
     brand,
-    status,
     sort,
   });
-  useEffect(() => setLimit(24), [query, brand, status, sort]);
+  useEffect(() => setLimit(24), [query, brand, sort]);
   return (
     <section className="section">
       <p className="eyebrow">THE CONSIDERED COLLECTION</p>
@@ -152,10 +161,7 @@ function Collection({ category = "all", saved, toggle, onlySaved = false }) {
           Make it a personal conversation.
         </p>
       </div>
-      <p className="disclosure">
-        Reference collection. Availability, specifications and pricing are
-        confirmed individually. Existing and generated photos are representative; generated concepts do not depict the named products.
-      </p>
+      <p className="disclosure">Discover a piece you love. Availability and pricing are confirmed personally.</p>
       <div className="toolbar">
         <label className="search">
           Search the collection
@@ -182,14 +188,6 @@ function Collection({ category = "all", saved, toggle, onlySaved = false }) {
           </select>
         </label>
         <label>
-          Availability
-          <select value={status} onChange={(e) => setStatus(e.target.value)}>
-            <option value="all">All pieces</option>
-            <option value="reference">Reference / sample</option>
-            <option value="available">Verified available</option>
-          </select>
-        </label>
-        <label>
           Sort
           <select value={sort} onChange={(e) => setSort(e.target.value)}>
             <option value="featured">Curated order</option>
@@ -208,26 +206,22 @@ function Collection({ category = "all", saved, toggle, onlySaved = false }) {
             {label}
           </a>
         ))}
+        <a href="#/loose-stones">Loose stones</a>
       </div>
       <p className="count" role="status">
-        {filtered.length} {filtered.length === 1 ? "piece" : "pieces"}
+        {filtered.length} {filtered.length === 1 ? "piece" : "pieces"}{supplierLoading && (category === "all" || category === "watches") ? " · loading watches…" : ""}
       </p>
       {filtered.length ? (
         <Grid list={filtered.slice(0, limit)} saved={saved} toggle={toggle} />
       ) : (
         <div className="empty">
           <h2>No pieces here yet.</h2>
-          <p>
-            {status === "available"
-              ? "No inventory has been verified as available. Explore the reference collection to begin an inquiry."
-              : "Try another search or save pieces from the collection."}
-          </p>
+          <p>Try another search or explore the full collection.</p>
           <button
             className="text-link"
             onClick={() => {
               setQuery("");
               setBrand("all");
-              setStatus("all");
             }}
           >
             Reset filters
@@ -242,7 +236,12 @@ function Collection({ category = "all", saved, toggle, onlySaved = false }) {
     </section>
   );
 }
-function Product({ p, saved, toggle }) {
+function Product({ p, saved, toggle, items }) {
+  const [activeImage, setActiveImage] = useState(0);
+  const gallery = p.gallery || [];
+  const displayed = activeImage && gallery[activeImage]
+    ? { ...p, imagery: [{ ...p.imagery[0], src: gallery[activeImage] }] }
+    : p;
   return (
     <>
       <section className="section detail">
@@ -252,27 +251,17 @@ function Product({ p, saved, toggle }) {
           {p.model}
         </nav>
         <div className="product-layout">
-          <Art p={p} large />
+          <div className="product-media">
+            <Art p={displayed} large />
+            {gallery.length > 1 && <div className="product-gallery" aria-label="Watch photographs">
+              {gallery.map((src, index) => <button type="button" key={`${p.id}-${index}`} aria-label={`View photograph ${index + 1} of ${p.model}`} aria-pressed={activeImage === index} onClick={() => setActiveImage(index)}><img src={thumbnailFor(src)} alt="" loading="lazy" /></button>)}
+            </div>}
+          </div>
           <div className="product-copy">
             <p className="eyebrow">{p.brand}</p>
             <h1>{p.model}</h1>
-            <p className="reference">
-              {p.reference
-                ? `Ref. ${p.reference}`
-                : "Collection reference · exact model to be confirmed"}
-            </p>
-            <span className="badge">
-              {p.status === "reference"
-                ? "Reference / sample piece"
-                : "Verified available"}
-            </span>
-            <p className="description">{p.description}</p>
-            <p className="availability">
-              {p.status === "reference"
-                ? "Not verified as available inventory."
-                : ""}{" "}
-              Pricing on confirmation.
-            </p>
+            {p.reference && <p className="reference">Ref. {p.reference}</p>}
+            <p className="availability">Availability, exact details and pricing on inquiry.</p>
             <Inquiry message={productMessage(p, location.href)} />
             <button
               className="text-link save-detail"
@@ -284,56 +273,11 @@ function Product({ p, saved, toggle }) {
                 ? "Saved to your pieces"
                 : "Save this piece"}
             </button>
-            <details open>
-              <summary>Details & availability</summary>
-              <dl>
-                <div>
-                  <dt>Category</dt>
-                  <dd>{categories[p.category]}</dd>
-                </div>
-                <div>
-                  <dt>Reference</dt>
-                  <dd>{p.reference || "Not specified"}</dd>
-                </div>
-                <div>
-                  <dt>Condition / specifications</dt>
-                  <dd>Not verified</dd>
-                </div>
-                <div>
-                  <dt>Catalog ID</dt>
-                  <dd>{p.id}</dd>
-                </div>
-              </dl>
-            </details>
+            <p className="description">{p.sourceDescription || (p.category === "watches" ? `Tell us about the ${p.model} you have in mind. We’ll help you explore the details and availability.` : `Explore ${p.model} with Express Diamonds. Tell us what you have in mind and we’ll help you find the right piece.`)}</p>
             <details>
-              <summary>Provenance & imagery</summary>
+              <summary>Inquiry details</summary>
               <p>
-                {p.provenance.scope}. Reviewed {p.provenance.reviewedOn}.{" "}
-                {p.imagery[0].rights}. {p.imagery[0].representation === "generated-concept"
-                  ? "This is an AI concept photo, not a photograph of the named product."
-                  : "This image is representative; the exact item and availability are unverified."}
-              </p>
-              {p.provenance.sourceUrl && (
-                <a
-                  className="text-link"
-                  href={p.provenance.sourceUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  View reference source <ArrowUpRight size={14} />
-                </a>
-              )}
-              <p>
-                Brand names identify design references. No authorized-dealer
-                relationship is claimed.
-              </p>
-            </details>
-            <details>
-              <summary>Your inquiry</summary>
-              <p>
-                Ask about the exact reference, availability, condition,
-                documentation, price and delivery terms before making a purchase
-                decision. Sending an inquiry does not place an order.
+                We’ll confirm the exact piece, condition, documentation, price and delivery options with you. Sending an inquiry does not place an order.
               </p>
             </details>
           </div>
@@ -344,7 +288,7 @@ function Product({ p, saved, toggle }) {
         <h2>A considered selection.</h2>
         <Grid
           list={items
-            .filter((x) => x.category === p.category && x.id !== p.id)
+            .filter((x) => x.category === p.category && x.brand === p.brand && x.id !== p.id)
             .slice(0, 4)}
           saved={saved}
           toggle={toggle}
@@ -353,7 +297,7 @@ function Product({ p, saved, toggle }) {
     </>
   );
 }
-function Home({ saved, toggle }) {
+function Home({ saved, toggle, items }) {
   return (
     <>
       <section className="hero" id="top">
@@ -421,18 +365,15 @@ function Home({ saved, toggle }) {
       <section className="section" id="pieces">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">THE REFERENCE EDIT</p>
+            <p className="eyebrow">THE WATCH EDIT</p>
             <h2>A different measure of time.</h2>
           </div>
           <a href="#/collections/watches" className="text-link">
             Explore watches <ArrowRight size={16} />
           </a>
         </div>
-        <p className="disclosure">
-          Design references, not verified stock. Existing photographs are representative; other pieces use generated concept photos.
-        </p>
         <Grid
-          list={[items[4], items[6], items[22], items[23]]}
+          list={(items.filter((p) => p.provenance.type === "authorized-supplier-listing").slice(0, 4).length ? items.filter((p) => p.provenance.type === "authorized-supplier-listing").slice(0, 4) : baseItems.filter((p) => p.category === "watches" && p.imagery[0].representation === "editorial-photo").slice(0, 3))}
           saved={saved}
           toggle={toggle}
         />
@@ -445,6 +386,53 @@ function Home({ saved, toggle }) {
         </a>
       </section>
       <span id="editorial-film" />
+    </>
+  );
+}
+function LooseStones() {
+  const [filter, setFilter] = useState("all");
+  const stones = looseStones.items.filter((stone) => filter === "all" || stone.group === filter);
+  return (
+    <>
+      <section className="section stone-page">
+        <p className="eyebrow">THE LOOSE STONE EDIT</p>
+        <div className="page-heading">
+          <h1>Begin with the stone<span>.</span></h1>
+          <p>One stone. A world of possibility.<br />A personal search starts here.</p>
+        </div>
+        <p className="disclosure">Explore the possibilities. We’ll help you find the right stone and confirm its details and availability.</p>
+        <div className="collection-tabs" aria-label="Filter loose stones">
+          {[["all", "All stones"], ["Diamond", "Diamonds"], ["Colored gemstone", "Colored gemstones"]].map(([value, label]) => (
+            <button key={value} type="button" aria-pressed={filter === value} onClick={() => setFilter(value)}>{label}</button>
+          ))}
+        </div>
+        <p className="count" role="status">{stones.length} stones to explore</p>
+        {!whatsappLink(number, "test") && <p className="disclosure">WhatsApp inquiries will be available when the business number is connected.</p>}
+        <div className="stone-grid">
+          {stones.map((stone) => {
+            const message = `Hello Express Diamonds, I would like to inquire about a ${stone.name.toLowerCase()}. Please share available options, grading documentation, treatments, origin and pricing. ${location.origin}/catalog.html#/loose-stones`;
+            const href = whatsappLink(number, message);
+            return (
+              <article className="stone-card" key={stone.id}>
+                <figure className="stone-art">
+                  <img src={stone.imagery.src} alt={`${stone.name} — illustrative image`} loading="lazy" />
+                  <figcaption>Illustrative image</figcaption>
+                </figure>
+                <p className="eyebrow">{stone.group}</p>
+                <h2>{stone.name}</h2>
+                <p>Explore {stone.name.toLowerCase()} options for your design.</p>
+                {href ? <a className="text-link" href={href} target="_blank" rel="noopener noreferrer">Make an Inquiry <ArrowUpRight size={15} /></a>
+                  : <button className="text-link" type="button" disabled>Make an Inquiry <ArrowUpRight size={15} /></button>}
+              </article>
+            );
+          })}
+        </div>
+      </section>
+      <section className="closing">
+        <p className="eyebrow">A STONE FOR YOUR STORY</p>
+        <h2>Let’s find the right one.</h2>
+        <a className="button dark" href="#/contact">Contact & bespoke <ArrowRight size={16} /></a>
+      </section>
     </>
   );
 }
@@ -476,9 +464,7 @@ function About() {
               you have in mind.
             </p>
             <p>
-              Our online edit currently contains reference pieces and bespoke
-              design studies. Each is clearly labeled. Specific inventory,
-              pricing and product details require confirmation.
+              Every inquiry is personal. We’ll help you explore the piece you love and confirm the exact details, availability and price.
             </p>
             <a href="#/contact" className="text-link">
               Start a conversation <ArrowRight size={16} />
@@ -494,9 +480,7 @@ function About() {
           <em>with clear details.</em>
         </h2>
         <p>
-          Ask about provenance, condition, documentation and the exact
-          specifications of any piece. Reference imagery is never proof of
-          available stock.
+          Ask us about a piece’s provenance, condition and documentation. We’ll help you find the details that matter.
         </p>
         <a className="button light" href="#/collections">
           Explore the collection <ArrowRight size={16} />
@@ -519,7 +503,7 @@ function Contact() {
         </h1>
         <p className="lead">
           Tell us what you have in mind.
-          <br />A reference. An occasion. An idea.
+          <br />A piece. An occasion. An idea.
         </p>
         <div className="steps">
           <p>
@@ -542,7 +526,7 @@ function Contact() {
           onChange={(e) => setTopic(e.target.value)}
         >
           <option>A piece from the collection</option>
-          <option>A watch reference</option>
+          <option>A watch</option>
           <option>A diamond</option>
           <option>A bespoke jewelry idea</option>
         </select>
@@ -570,13 +554,15 @@ function Contact() {
 function App() {
   const route = useRoute(),
     main = useRef(null);
+  const [supplierItems, setSupplierItems] = useState([]),
+    [supplierLoading, setSupplierLoading] = useState(true);
+  const items = [...baseItems, ...supplierItems];
+  const visibleItems = items.filter((p) => p.imagery[0].representation !== "pending-exact-photo");
   const [menu, setMenu] = useState(false),
     [saved, setSaved] = useState(() => {
       try {
         const s = JSON.parse(localStorage.getItem("ed-saved"));
-        return Array.isArray(s)
-          ? s.filter((id) => items.some((p) => p.id === id))
-          : [];
+        return Array.isArray(s) ? s.filter((id) => typeof id === "string") : [];
       } catch {
         return [];
       }
@@ -584,13 +570,19 @@ function App() {
   const toggle = (id) =>
     setSaved((s) => (s.includes(id) ? s.filter((x) => x !== id) : [...s, id]));
   useEffect(() => {
+    fetch("/data/wrist-watches.json")
+      .then((response) => { if (!response.ok) throw new Error("Supplier catalog unavailable"); return response.json(); })
+      .then((data) => setSupplierItems(Array.isArray(data.items) ? data.items : []))
+      .catch((error) => console.error(error))
+      .finally(() => setSupplierLoading(false));
+  }, []);
+  useEffect(() => {
     try {
       localStorage.setItem("ed-saved", JSON.stringify(saved));
     } catch {}
   }, [saved]);
   useEffect(() => {
     setMenu(false);
-    document.title = `${route.startsWith("/products/") ? items.find((p) => pathFor(p) === "#" + route)?.model || "Piece not found" : route.includes("about") ? "Our philosophy" : route.includes("contact") ? "Contact & bespoke" : route.includes("collections") ? "The collection" : "For all that matters"} — Express Diamonds`;
     if (!route.startsWith("/")) {
       requestAnimationFrame(() =>
         document.getElementById(route)?.scrollIntoView(),
@@ -602,8 +594,11 @@ function App() {
       });
     }
   }, [route]);
+  useEffect(() => {
+    document.title = `${route.startsWith("/products/") ? items.find((p) => pathFor(p) === "#" + route)?.model || "Piece not found" : route === "/loose-stones" ? "Loose stones" : route.includes("about") ? "Our philosophy" : route.includes("contact") ? "Contact & bespoke" : route.includes("collections") ? "The collection" : "For all that matters"} — Express Diamonds`;
+  }, [route, supplierItems]);
   let page;
-  const props = { saved, toggle };
+  const props = { saved, toggle, items: visibleItems, supplierLoading };
   if (route === "/" || !route.startsWith("/")) page = <Home {...props} />;
   else if (route === "/collections" || route === "/saved")
     page = <Collection key={route} {...props} onlySaved={route === "/saved"} />;
@@ -616,7 +611,10 @@ function App() {
     page = (
       <Product p={items.find((p) => p.id === route.split("/")[2])} {...props} />
     );
+  else if (route.startsWith("/products/watch-catalog-") && supplierLoading)
+    page = <section className="section empty"><h1>Loading watch.</h1></section>;
   else if (route === "/about") page = <About />;
+  else if (route === "/loose-stones") page = <LooseStones />;
   else if (route === "/contact") page = <Contact />;
   else
     page = (
@@ -671,20 +669,13 @@ function App() {
           className={menu ? "open" : ""}
           aria-label="Main navigation"
         >
-          <a href="#/collections">All pieces</a>
-          {Object.entries(categories).map(([key, label]) => (
-            <a
-              key={key}
-              href={`#/collections/${key}`}
-              aria-current={
-                route === `/collections/${key}` ? "page" : undefined
-              }
-            >
-              {label}
-            </a>
-          ))}
+          <a href="#/collections" aria-current={route === "/collections" ? "page" : undefined}>Collection</a>
+          <a href="#/collections/watches" aria-current={route === "/collections/watches" ? "page" : undefined}>Watches</a>
+          <a href="#/collections/diamonds" aria-current={route === "/collections/diamonds" ? "page" : undefined}>Diamonds</a>
+          <a href="#/loose-stones" aria-current={route === "/loose-stones" ? "page" : undefined}>Loose stones</a>
+          <a href="#/collections/fine-jewelry" aria-current={route === "/collections/fine-jewelry" ? "page" : undefined}>Fine jewelry</a>
           <a href="#/about">About</a>
-          <a href="#/contact">Contact & bespoke</a>
+          <a href="#/contact">Contact</a>
         </nav>
       </header>
       <main ref={main} id="main" tabIndex="-1">
@@ -699,6 +690,7 @@ function App() {
           <p className="eyebrow">EXPLORE</p>
           <a href="#/collections/watches">Watches</a>
           <a href="#/collections/diamonds">Diamonds</a>
+          <a href="#/loose-stones">Loose stones</a>
           <a href="#/collections/fine-jewelry">Fine jewelry</a>
         </div>
         <div>
@@ -708,9 +700,7 @@ function App() {
           <a href="#/saved">Saved pieces</a>
         </div>
         <p className="footer-note">
-          Reference catalog · availability subject to confirmation. Brand names
-          are used for identification; no affiliation or authorized-dealer
-          status is implied.
+          Availability and pricing confirmed on inquiry.
           <br />© {new Date().getFullYear()} Express Diamonds
         </p>
       </footer>

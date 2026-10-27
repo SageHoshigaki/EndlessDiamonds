@@ -443,23 +443,13 @@ function App() {
           className={menu ? "navigation is-open" : "navigation"}
           aria-label="Main navigation"
         >
-          {["Diamonds", "Fine jewelry", "Watches"].map((name) => (
-            <a key={name} href="#pieces" onClick={() => browse(name)}>
-              {name}
-            </a>
-          ))}
-          <button
-            onClick={() => {
-              setMenu(false);
-              setPanel("bespoke");
-            }}
-          >
-            Bespoke
-          </button>
-          <a href="/catalog.html#/collections" onClick={() => setMenu(false)}>Catalog</a>
-          <a href="#philosophy" onClick={() => setMenu(false)}>
-            Our philosophy
-          </a>
+          <a href="/catalog.html#/collections" onClick={() => setMenu(false)}>Collection</a>
+          <a href="/catalog.html#/collections/watches" onClick={() => setMenu(false)}>Watches</a>
+          <a href="/catalog.html#/collections/diamonds" onClick={() => setMenu(false)}>Diamonds</a>
+          <a href="/catalog.html#/loose-stones" onClick={() => setMenu(false)}>Loose stones</a>
+          <a href="/catalog.html#/collections/fine-jewelry" onClick={() => setMenu(false)}>Fine jewelry</a>
+          <a href="/catalog.html#/about" onClick={() => setMenu(false)}>About</a>
+          <a href="/catalog.html#/contact" onClick={() => setMenu(false)}>Contact</a>
         </nav>
       </header>
       <main id="main">
@@ -642,15 +632,10 @@ function App() {
           </div>
           <div className="footer-links">
             <span>EXPLORE</span>
-            <a href="#pieces" onClick={() => browse("Diamonds")}>
-              Diamonds
-            </a>
-            <a href="#pieces" onClick={() => browse("Fine jewelry")}>
-              Fine jewelry
-            </a>
-            <a href="#pieces" onClick={() => browse("Watches")}>
-              Watches
-            </a>
+            <a href="/catalog.html#/collections/watches">Watches</a>
+            <a href="/catalog.html#/collections/diamonds">Diamonds</a>
+            <a href="/catalog.html#/loose-stones">Loose stones</a>
+            <a href="/catalog.html#/collections/fine-jewelry">Fine jewelry</a>
           </div>
           <div className="footer-links">
             <span>EXPRESS DIAMONDS</span>

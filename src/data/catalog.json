@@ -24,11 +24,12 @@
       ],
       "provenance": {
         "type": "manufacturer-reference",
-        "sourceUrl": "https://www.rolex.com/watches",
+        "sourceUrl": "https://www.rolex.com/watches/find-rolex?group=0",
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; no stock or specifications verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Rolex Datejust is a date-display collection offered in many configurations."
     },
     {
       "id": "patek-philippe-nautilus-5811-1g-001",
@@ -57,7 +58,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 5811/1G-001 in its Nautilus collection with date display."
     },
     {
       "id": "audemars-piguet-royal-oak-selfwinding",
@@ -86,7 +88,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; local stock and exact configuration not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Audemars Piguet lists this watch within its Royal Oak or Code 11.59 collection. The name and reference identify the design; exact condition and specifications of a locally available watch are unverified."
     },
     {
       "id": "cartier-love-bracelet",
@@ -246,21 +249,22 @@
       "description": "Land-Dweller is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-blue.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Land-Dweller",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
           "licensingSourceUrl": null,
-          "representation": "generated-concept"
+          "representation": "pending-exact-photo"
         }
       ],
       "provenance": {
         "type": "manufacturer-reference",
-        "sourceUrl": "https://www.rolex.com/watches",
+        "sourceUrl": "https://www.rolex.com/watches/find-rolex?group=0",
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; no stock or specifications verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Rolex Land-Dweller is a named collection in the manufacturer catalog."
     },
     {
       "id": "rolex-day-date",
@@ -275,21 +279,22 @@
       "description": "Day-Date is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-blue.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Day-Date",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
           "licensingSourceUrl": null,
-          "representation": "generated-concept"
+          "representation": "pending-exact-photo"
         }
       ],
       "provenance": {
         "type": "manufacturer-reference",
-        "sourceUrl": "https://www.rolex.com/watches",
+        "sourceUrl": "https://www.rolex.com/watches/find-rolex?group=0",
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; no stock or specifications verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Rolex Day-Date is the manufacturer’s day-and-date display collection."
     },
     {
       "id": "rolex-sky-dweller",
@@ -304,21 +309,22 @@
       "description": "Sky-Dweller is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-blue.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Sky-Dweller",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
           "licensingSourceUrl": null,
-          "representation": "generated-concept"
+          "representation": "pending-exact-photo"
         }
       ],
       "provenance": {
         "type": "manufacturer-reference",
-        "sourceUrl": "https://www.rolex.com/watches",
+        "sourceUrl": "https://www.rolex.com/watches/find-rolex?group=0",
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; no stock or specifications verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Rolex Sky-Dweller is the manufacturer’s travel-oriented collection."
     },
     {
       "id": "rolex-lady-datejust",
@@ -333,21 +339,22 @@
       "description": "Lady-Datejust is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-blue.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Lady-Datejust",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
           "licensingSourceUrl": null,
-          "representation": "generated-concept"
+          "representation": "pending-exact-photo"
         }
       ],
       "provenance": {
         "type": "manufacturer-reference",
-        "sourceUrl": "https://www.rolex.com/watches",
+        "sourceUrl": "https://www.rolex.com/watches/find-rolex?group=0",
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; no stock or specifications verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Rolex Lady-Datejust is the smaller Datejust collection with varied configurations."
     },
     {
       "id": "rolex-oyster-perpetual",
@@ -362,21 +369,22 @@
       "description": "Oyster Perpetual is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-blue.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Oyster Perpetual",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
           "licensingSourceUrl": null,
-          "representation": "generated-concept"
+          "representation": "pending-exact-photo"
         }
       ],
       "provenance": {
         "type": "manufacturer-reference",
-        "sourceUrl": "https://www.rolex.com/watches",
+        "sourceUrl": "https://www.rolex.com/watches/find-rolex?group=0",
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; no stock or specifications verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Rolex Oyster Perpetual is the manufacturer’s time-only collection."
     },
     {
       "id": "rolex-cosmograph-daytona",
@@ -391,21 +399,22 @@
       "description": "Cosmograph Daytona is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-chronograph.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Cosmograph Daytona",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
           "licensingSourceUrl": null,
-          "representation": "generated-concept"
+          "representation": "pending-exact-photo"
         }
       ],
       "provenance": {
         "type": "manufacturer-reference",
-        "sourceUrl": "https://www.rolex.com/watches",
+        "sourceUrl": "https://www.rolex.com/watches/find-rolex?group=0",
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; no stock or specifications verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Rolex Cosmograph Daytona is the manufacturer’s chronograph collection."
     },
     {
       "id": "rolex-submariner",
@@ -420,21 +429,22 @@
       "description": "Submariner is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-diver.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Submariner",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
           "licensingSourceUrl": null,
-          "representation": "generated-concept"
+          "representation": "pending-exact-photo"
         }
       ],
       "provenance": {
         "type": "manufacturer-reference",
-        "sourceUrl": "https://www.rolex.com/watches",
+        "sourceUrl": "https://www.rolex.com/watches/find-rolex?group=0",
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; no stock or specifications verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Rolex Submariner is the manufacturer’s divers’ watch collection."
     },
     {
       "id": "rolex-sea-dweller",
@@ -449,21 +459,22 @@
       "description": "Sea-Dweller is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-diver.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Sea-Dweller",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
           "licensingSourceUrl": null,
-          "representation": "generated-concept"
+          "representation": "pending-exact-photo"
         }
       ],
       "provenance": {
         "type": "manufacturer-reference",
-        "sourceUrl": "https://www.rolex.com/watches",
+        "sourceUrl": "https://www.rolex.com/watches/find-rolex?group=0",
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; no stock or specifications verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Rolex Sea-Dweller is a named divers’ watch collection."
     },
     {
       "id": "rolex-gmt-master-ii",
@@ -478,21 +489,22 @@
       "description": "GMT-Master II is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-blue.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex GMT-Master II",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
           "licensingSourceUrl": null,
-          "representation": "generated-concept"
+          "representation": "pending-exact-photo"
         }
       ],
       "provenance": {
         "type": "manufacturer-reference",
-        "sourceUrl": "https://www.rolex.com/watches",
+        "sourceUrl": "https://www.rolex.com/watches/find-rolex?group=0",
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; no stock or specifications verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Rolex GMT-Master II is the manufacturer’s dual-time collection."
     },
     {
       "id": "rolex-deepsea",
@@ -507,21 +519,22 @@
       "description": "Deepsea is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-diver.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Deepsea",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
           "licensingSourceUrl": null,
-          "representation": "generated-concept"
+          "representation": "pending-exact-photo"
         }
       ],
       "provenance": {
         "type": "manufacturer-reference",
-        "sourceUrl": "https://www.rolex.com/watches",
+        "sourceUrl": "https://www.rolex.com/watches/find-rolex?group=0",
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; no stock or specifications verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Rolex Deepsea is a named divers’ watch collection."
     },
     {
       "id": "rolex-yacht-master",
@@ -536,21 +549,22 @@
       "description": "Yacht-Master is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-diver.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Yacht-Master",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
           "licensingSourceUrl": null,
-          "representation": "generated-concept"
+          "representation": "pending-exact-photo"
         }
       ],
       "provenance": {
         "type": "manufacturer-reference",
-        "sourceUrl": "https://www.rolex.com/watches",
+        "sourceUrl": "https://www.rolex.com/watches/find-rolex?group=0",
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; no stock or specifications verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Rolex Yacht-Master is a named collection in the manufacturer catalog."
     },
     {
       "id": "rolex-explorer",
@@ -565,21 +579,22 @@
       "description": "Explorer is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-diver.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Explorer",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
           "licensingSourceUrl": null,
-          "representation": "generated-concept"
+          "representation": "pending-exact-photo"
         }
       ],
       "provenance": {
         "type": "manufacturer-reference",
-        "sourceUrl": "https://www.rolex.com/watches",
+        "sourceUrl": "https://www.rolex.com/watches/find-rolex?group=0",
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; no stock or specifications verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Rolex Explorer is a named collection in the manufacturer catalog."
     },
     {
       "id": "rolex-air-king",
@@ -594,21 +609,22 @@
       "description": "Air-King is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-blue.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Air-King",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
           "licensingSourceUrl": null,
-          "representation": "generated-concept"
+          "representation": "pending-exact-photo"
         }
       ],
       "provenance": {
         "type": "manufacturer-reference",
-        "sourceUrl": "https://www.rolex.com/watches",
+        "sourceUrl": "https://www.rolex.com/watches/find-rolex?group=0",
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; no stock or specifications verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Rolex Air-King is a named collection in the manufacturer catalog."
     },
     {
       "id": "rolex-explorer-ii",
@@ -623,21 +639,22 @@
       "description": "Explorer II is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-diver.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Explorer II",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
           "licensingSourceUrl": null,
-          "representation": "generated-concept"
+          "representation": "pending-exact-photo"
         }
       ],
       "provenance": {
         "type": "manufacturer-reference",
-        "sourceUrl": "https://www.rolex.com/watches",
+        "sourceUrl": "https://www.rolex.com/watches/find-rolex?group=0",
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; no stock or specifications verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Rolex Explorer II is a named collection in the manufacturer catalog."
     },
     {
       "id": "rolex-1908",
@@ -652,21 +669,22 @@
       "description": "1908 is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-gold.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex 1908",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
           "licensingSourceUrl": null,
-          "representation": "generated-concept"
+          "representation": "pending-exact-photo"
         }
       ],
       "provenance": {
         "type": "manufacturer-reference",
-        "sourceUrl": "https://www.rolex.com/watches",
+        "sourceUrl": "https://www.rolex.com/watches/find-rolex?group=0",
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; no stock or specifications verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Rolex 1908 is a named dress-watch collection in the manufacturer catalog."
     },
     {
       "id": "patek-philippe-grand-complications",
@@ -681,12 +699,12 @@
       "description": "Grand complications is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-chronograph.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Grand complications",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
           "licensingSourceUrl": null,
-          "representation": "generated-concept"
+          "representation": "pending-exact-photo"
         }
       ],
       "provenance": {
@@ -695,7 +713,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; no stock or specifications verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe groups its most complex watch references under Grand Complications."
     },
     {
       "id": "patek-philippe-complications",
@@ -710,12 +729,12 @@
       "description": "Complications is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-chronograph.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Complications",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
           "licensingSourceUrl": null,
-          "representation": "generated-concept"
+          "representation": "pending-exact-photo"
         }
       ],
       "provenance": {
@@ -724,7 +743,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; no stock or specifications verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe uses Complications for watches with additional functions."
     },
     {
       "id": "patek-philippe-calatrava",
@@ -739,12 +759,12 @@
       "description": "Calatrava is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-gold.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Calatrava",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
           "licensingSourceUrl": null,
-          "representation": "generated-concept"
+          "representation": "pending-exact-photo"
         }
       ],
       "provenance": {
@@ -753,7 +773,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; no stock or specifications verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe describes the Calatrava as its classic round-watch collection."
     },
     {
       "id": "patek-philippe-gondolo",
@@ -768,12 +789,12 @@
       "description": "Gondolo is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-rectangular.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Gondolo",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
           "licensingSourceUrl": null,
-          "representation": "generated-concept"
+          "representation": "pending-exact-photo"
         }
       ],
       "provenance": {
@@ -782,7 +803,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; no stock or specifications verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists Gondolo as a distinct collection of shaped watches."
     },
     {
       "id": "patek-philippe-golden-ellipse",
@@ -797,12 +819,12 @@
       "description": "Golden Ellipse is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-rectangular.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Golden Ellipse",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
           "licensingSourceUrl": null,
-          "representation": "generated-concept"
+          "representation": "pending-exact-photo"
         }
       ],
       "provenance": {
@@ -811,7 +833,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; no stock or specifications verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists Golden Ellipse as a distinct collection with an elliptical case design."
     },
     {
       "id": "patek-philippe-cubitus",
@@ -826,12 +849,12 @@
       "description": "Cubitus is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-blue.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Cubitus",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
           "licensingSourceUrl": null,
-          "representation": "generated-concept"
+          "representation": "pending-exact-photo"
         }
       ],
       "provenance": {
@@ -840,7 +863,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; no stock or specifications verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists Cubitus as a distinct watch collection."
     },
     {
       "id": "patek-philippe-nautilus",
@@ -855,12 +879,12 @@
       "description": "Nautilus is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-gold.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
           "licensingSourceUrl": null,
-          "representation": "generated-concept"
+          "representation": "pending-exact-photo"
         }
       ],
       "provenance": {
@@ -869,7 +893,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; no stock or specifications verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe describes Nautilus as its sports-watch collection."
     },
     {
       "id": "patek-philippe-aquanaut",
@@ -884,12 +909,12 @@
       "description": "Aquanaut is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-diver.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Aquanaut",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
           "licensingSourceUrl": null,
-          "representation": "generated-concept"
+          "representation": "pending-exact-photo"
         }
       ],
       "provenance": {
@@ -898,7 +923,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Collection name only; no stock or specifications verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists Aquanaut as a distinct sports-watch collection."
     },
     {
       "id": "bespoke-concept-pendant-study",
@@ -1029,11 +1055,11 @@
       "description": "Code 11.59 Ultra-Complication Universelle 26398BC.OO.D002CR.02 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-rectangular.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Audemars Piguet Code 11.59 Ultra-Complication Universelle 26398BC.OO.D002CR.02",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1043,7 +1069,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Audemars Piguet lists this watch within its Royal Oak or Code 11.59 collection. The name and reference identify the design; exact condition and specifications of a locally available watch are unverified."
     },
     {
       "id": "audemars-piguet-code-11-59-ultra-complication-universelle-26398bc-oo-d002cr-04",
@@ -1058,11 +1085,11 @@
       "description": "Code 11.59 Ultra-Complication Universelle 26398BC.OO.D002CR.04 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-blue.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Audemars Piguet Code 11.59 Ultra-Complication Universelle 26398BC.OO.D002CR.04",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1072,7 +1099,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Audemars Piguet lists this watch within its Royal Oak or Code 11.59 collection. The name and reference identify the design; exact condition and specifications of a locally available watch are unverified."
     },
     {
       "id": "audemars-piguet-code-11-59-grande-sonnerie-supersonnerie-26397qs-oo-d002kb-02",
@@ -1087,11 +1115,11 @@
       "description": "Code 11.59 Grande Sonnerie Supersonnerie 26397QS.OO.D002KB.02 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-chronograph.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Audemars Piguet Code 11.59 Grande Sonnerie Supersonnerie 26397QS.OO.D002KB.02",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1101,7 +1129,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Audemars Piguet lists this watch within its Royal Oak or Code 11.59 collection. The name and reference identify the design; exact condition and specifications of a locally available watch are unverified."
     },
     {
       "id": "audemars-piguet-code-11-59-minute-repeater-supersonnerie-26395bc-oo-d009cr-01",
@@ -1116,11 +1145,11 @@
       "description": "Code 11.59 Minute Repeater Supersonnerie 26395BC.OO.D009CR.01 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-chronograph.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Audemars Piguet Code 11.59 Minute Repeater Supersonnerie 26395BC.OO.D009CR.01",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1130,7 +1159,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Audemars Piguet lists this watch within its Royal Oak or Code 11.59 collection. The name and reference identify the design; exact condition and specifications of a locally available watch are unverified."
     },
     {
       "id": "audemars-piguet-code-11-59-selfwinding-flying-tourbillon-chronograph-26399nb-oo-d009kb-01",
@@ -1145,11 +1175,11 @@
       "description": "Code 11.59 Selfwinding Flying Tourbillon Chronograph 26399NB.OO.D009KB.01 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-chronograph.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Audemars Piguet Code 11.59 Selfwinding Flying Tourbillon Chronograph 26399NB.OO.D009KB.01",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1159,7 +1189,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Audemars Piguet lists this watch within its Royal Oak or Code 11.59 collection. The name and reference identify the design; exact condition and specifications of a locally available watch are unverified."
     },
     {
       "id": "audemars-piguet-code-11-59-selfwinding-flying-tourbillon-26396bc-oo-d349kb-01",
@@ -1174,11 +1205,11 @@
       "description": "Code 11.59 Selfwinding Flying Tourbillon 26396BC.OO.D349KB.01 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-chronograph.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Audemars Piguet Code 11.59 Selfwinding Flying Tourbillon 26396BC.OO.D349KB.01",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1188,7 +1219,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Audemars Piguet lists this watch within its Royal Oak or Code 11.59 collection. The name and reference identify the design; exact condition and specifications of a locally available watch are unverified."
     },
     {
       "id": "audemars-piguet-code-11-59-selfwinding-flying-tourbillon-26396nb-oo-d002cr-01",
@@ -1203,11 +1235,11 @@
       "description": "Code 11.59 Selfwinding Flying Tourbillon 26396NB.OO.D002CR.01 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-chronograph.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Audemars Piguet Code 11.59 Selfwinding Flying Tourbillon 26396NB.OO.D002CR.01",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1217,7 +1249,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Audemars Piguet lists this watch within its Royal Oak or Code 11.59 collection. The name and reference identify the design; exact condition and specifications of a locally available watch are unverified."
     },
     {
       "id": "audemars-piguet-code-11-59-selfwinding-flying-tourbillon-openworked-26601nr-oo-d002kb-01",
@@ -1232,11 +1265,11 @@
       "description": "Code 11.59 Selfwinding Flying Tourbillon Openworked 26601NR.OO.D002KB.01 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-chronograph.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Audemars Piguet Code 11.59 Selfwinding Flying Tourbillon Openworked 26601NR.OO.D002KB.01",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1246,7 +1279,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Audemars Piguet lists this watch within its Royal Oak or Code 11.59 collection. The name and reference identify the design; exact condition and specifications of a locally available watch are unverified."
     },
     {
       "id": "audemars-piguet-code-11-59-perpetual-calendar-openworked-26443nb-oo-d002cr-01",
@@ -1261,11 +1295,11 @@
       "description": "Code 11.59 Perpetual Calendar Openworked 26443NB.OO.D002CR.01 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-chronograph.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Audemars Piguet Code 11.59 Perpetual Calendar Openworked 26443NB.OO.D002CR.01",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1275,7 +1309,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Audemars Piguet lists this watch within its Royal Oak or Code 11.59 collection. The name and reference identify the design; exact condition and specifications of a locally available watch are unverified."
     },
     {
       "id": "patek-philippe-nautilus-5712-1r-001",
@@ -1290,11 +1325,11 @@
       "description": "Nautilus 5712/1R-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-blue.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5712/1R-001",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1304,7 +1339,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 5712/1R-001 in its Nautilus collection with moon phases."
     },
     {
       "id": "patek-philippe-nautilus-5726-1a-014",
@@ -1319,11 +1355,11 @@
       "description": "Nautilus 5726/1A-014 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-gold.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5726/1A-014",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1333,7 +1369,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 5726/1A-014 in its Nautilus collection with annual calendar and moon phases."
     },
     {
       "id": "patek-philippe-nautilus-5726a-001",
@@ -1348,11 +1385,11 @@
       "description": "Nautilus 5726A-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-blue.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5726A-001",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1362,7 +1399,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 5726A-001 in its Nautilus collection with annual calendar and moon phases."
     },
     {
       "id": "patek-philippe-nautilus-5811-1460g-001",
@@ -1377,11 +1415,11 @@
       "description": "Nautilus 5811/1460G-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-chronograph.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5811/1460G-001",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1391,7 +1429,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 5811/1460G-001 in its Nautilus collection."
     },
     {
       "id": "patek-philippe-nautilus-5740-1g-001",
@@ -1406,11 +1445,11 @@
       "description": "Nautilus 5740/1G-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-blue.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5740/1G-001",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1420,7 +1459,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 5740/1G-001 in its Nautilus collection with perpetual calendar."
     },
     {
       "id": "patek-philippe-nautilus-5980-1400g-010",
@@ -1435,11 +1475,11 @@
       "description": "Nautilus 5980/1400G-010 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-gold.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5980/1400G-010",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1449,7 +1489,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 5980/1400G-010 in its Nautilus collection."
     },
     {
       "id": "patek-philippe-nautilus-5980-1400r-011",
@@ -1464,11 +1505,11 @@
       "description": "Nautilus 5980/1400R-011 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-blue.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5980/1400R-011",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1478,7 +1519,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 5980/1400R-011 in its Nautilus collection."
     },
     {
       "id": "patek-philippe-nautilus-5980-60g-001",
@@ -1493,11 +1535,11 @@
       "description": "Nautilus 5980/60G-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-chronograph.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5980/60G-001",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1507,7 +1549,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 5980/60G-001 in its Nautilus collection with flyback chronograph and date."
     },
     {
       "id": "patek-philippe-nautilus-5990-1a-011",
@@ -1522,11 +1565,11 @@
       "description": "Nautilus 5990/1A-011 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-blue.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5990/1A-011",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1536,7 +1579,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 5990/1A-011 in its Nautilus collection with flyback chronograph and Travel Time."
     },
     {
       "id": "patek-philippe-nautilus-5990-1r-001",
@@ -1551,11 +1595,11 @@
       "description": "Nautilus 5990/1R-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-gold.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5990/1R-001",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1565,7 +1609,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 5990/1R-001 in its Nautilus collection with flyback chronograph and Travel Time."
     },
     {
       "id": "patek-philippe-nautilus-5990-1400g-001",
@@ -1580,11 +1625,11 @@
       "description": "Nautilus 5990/1400G-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-blue.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5990/1400G-001",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1594,7 +1639,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 5990/1400G-001 in its Nautilus collection with flyback chronograph and Travel Time."
     },
     {
       "id": "patek-philippe-nautilus-5990-1421g-001",
@@ -1609,11 +1655,11 @@
       "description": "Nautilus 5990/1421G-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-chronograph.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5990/1421G-001",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1623,7 +1669,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 5990/1421G-001 in its Nautilus collection with flyback chronograph and Travel Time."
     },
     {
       "id": "patek-philippe-nautilus-5990-1422g-001",
@@ -1638,11 +1685,11 @@
       "description": "Nautilus 5990/1422G-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-blue.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5990/1422G-001",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1652,7 +1699,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 5990/1422G-001 in its Nautilus collection with flyback chronograph and Travel Time."
     },
     {
       "id": "patek-philippe-nautilus-7010-1g-013",
@@ -1667,11 +1715,11 @@
       "description": "Nautilus 7010/1G-013 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-gold.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 7010/1G-013",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1681,7 +1729,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 7010/1G-013 in its Nautilus collection with date display."
     },
     {
       "id": "patek-philippe-nautilus-7010-1r-013",
@@ -1696,11 +1745,11 @@
       "description": "Nautilus 7010/1R-013 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-blue.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 7010/1R-013",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1710,7 +1759,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 7010/1R-013 in its Nautilus collection with date display."
     },
     {
       "id": "patek-philippe-nautilus-7010g-013",
@@ -1725,11 +1775,11 @@
       "description": "Nautilus 7010G-013 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-chronograph.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 7010G-013",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1739,7 +1789,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 7010G-013 in its Nautilus collection with date display."
     },
     {
       "id": "patek-philippe-nautilus-7010r-013",
@@ -1754,11 +1805,11 @@
       "description": "Nautilus 7010R-013 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-blue.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 7010R-013",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1768,7 +1819,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 7010R-013 in its Nautilus collection with date display."
     },
     {
       "id": "patek-philippe-nautilus-7118-1a-001",
@@ -1783,11 +1835,11 @@
       "description": "Nautilus 7118/1A-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-gold.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 7118/1A-001",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1797,7 +1849,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 7118/1A-001 in its Nautilus collection with date display."
     },
     {
       "id": "patek-philippe-nautilus-7118-1a-011",
@@ -1812,11 +1865,11 @@
       "description": "Nautilus 7118/1A-011 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-blue.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 7118/1A-011",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1826,7 +1879,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 7118/1A-011 in its Nautilus collection with date display."
     },
     {
       "id": "patek-philippe-nautilus-7118-1200a-001",
@@ -1841,11 +1895,11 @@
       "description": "Nautilus 7118/1200A-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-chronograph.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 7118/1200A-001",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1855,7 +1909,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 7118/1200A-001 in its Nautilus collection with date display."
     },
     {
       "id": "patek-philippe-nautilus-7118-1200a-011",
@@ -1870,11 +1925,11 @@
       "description": "Nautilus 7118/1200A-011 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-blue.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 7118/1200A-011",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1884,7 +1939,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 7118/1200A-011 in its Nautilus collection with date display."
     },
     {
       "id": "patek-philippe-nautilus-7118-1r-001",
@@ -1899,11 +1955,11 @@
       "description": "Nautilus 7118/1R-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-gold.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 7118/1R-001",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1913,7 +1969,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 7118/1R-001 in its Nautilus collection with date display."
     },
     {
       "id": "patek-philippe-nautilus-7118-1r-010",
@@ -1928,11 +1985,11 @@
       "description": "Nautilus 7118/1R-010 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-blue.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 7118/1R-010",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1942,7 +1999,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 7118/1R-010 in its Nautilus collection with date display."
     },
     {
       "id": "patek-philippe-nautilus-7118-1200r-001",
@@ -1957,11 +2015,11 @@
       "description": "Nautilus 7118/1200R-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-chronograph.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 7118/1200R-001",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -1971,7 +2029,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 7118/1200R-001 in its Nautilus collection with date display."
     },
     {
       "id": "patek-philippe-nautilus-7118-1200r-010",
@@ -1986,11 +2045,11 @@
       "description": "Nautilus 7118/1200R-010 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
       "imagery": [
         {
-          "src": "/images/catalog/concept-watch-blue.png",
-          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 7118/1200R-010",
-          "rights": "AI-generated original project concept image",
+          "src": null,
+          "alt": null,
+          "rights": "Exact model photograph not yet supplied or cleared for use",
           "placeholder": true,
-          "representation": "generated-concept",
+          "representation": "pending-exact-photo",
           "licensingSourceUrl": null
         }
       ],
@@ -2000,7 +2059,8 @@
         "reviewedOn": "2026-10-27",
         "scope": "Named reference on manufacturer collection page; local stock not verified",
         "inventoryVerifiedAt": null
-      }
+      },
+      "manufacturerContext": "Patek Philippe lists reference 7118/1200R-010 in its Nautilus collection with date display."
     },
     {
       "id": "cartier-love-ring",

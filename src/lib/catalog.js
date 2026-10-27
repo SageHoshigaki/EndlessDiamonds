@@ -38,5 +38,5 @@ export function whatsappLink(number, message) {
     : null;
 }
 export function productMessage(p, url) {
-  return `Hello Express Diamonds, I would like to make an inquiry about ${p.brand} ${p.model}. Reference: ${p.reference || "not yet specified"}. Catalog ID: ${p.id}. ${p.status === "reference" ? "I understand this is a reference/sample item, not verified available stock. " : ""}Please confirm availability, exact specifications, condition and pricing. ${url}`;
+  return `Hello Express Diamonds, I’m interested in ${p.model}${p.reference ? ` (Ref. ${p.reference})` : ""}. Please confirm availability, exact details, condition and price. ${url}`;
 }
