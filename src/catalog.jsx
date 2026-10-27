@@ -13,6 +13,7 @@ import "./catalog.css";
 const baseItems = catalog.items;
 const number = import.meta.env.VITE_WHATSAPP_NUMBER;
 const pathFor = (p) => `#/products/${p.id}`;
+const brandLabel = (p) => p.brand === "Bespoke concept" ? "Express Diamonds" : p.brand;
 const thumbnailFor = (src) => {
   const url = new URL(src);
   url.searchParams.set("width", "180");
@@ -52,7 +53,7 @@ function Art({ p, kind, large = false }) {
     <figure className={`art ${large ? "large" : ""} ${p?.imagery[0].representation !== "illustration" ? "photo" : ""}`}>
       <img
         src={p?.imagery[0].src || {watches:"/images/category-watch.jpeg",diamonds:"/images/category-diamond.jpeg","fine-jewelry":"/images/category-jewelry.jpeg"}[kind]}
-        alt={p?.imagery[0].representation === "generated-concept" ? `${p.model} — illustrative image` : p?.imagery[0].alt || `${kind} jewelry`}
+        alt={p ? `${brandLabel(p)} ${p.model}${p.imagery[0].representation === "generated-concept" ? " — illustrative image" : ""}` : kind === "watches" ? "Luxury watch" : kind === "diamonds" ? "Diamond jewelry" : "Fine jewelry"}
         loading={large ? "eager" : "lazy"}
         onError={(e) => {
           e.currentTarget.onerror = null;
@@ -95,7 +96,7 @@ function Card({ p, saved, toggle }) {
   return (
     <article className={`card ${p.provenance.type === "authorized-supplier-listing" ? "supplier" : ""}`}>
       <div className="card-art">
-        <a href={pathFor(p)} aria-label={`View ${p.brand} ${p.model}`}>
+        <a href={pathFor(p)} aria-label={`View ${brandLabel(p)} ${p.model}`}>
           <Art p={p} />
         </a>
         <button
@@ -108,7 +109,7 @@ function Card({ p, saved, toggle }) {
         </button>
       </div>
       <div className="card-meta">
-        <p className="eyebrow">{p.brand}</p>
+        <p className="eyebrow">{brandLabel(p)}</p>
         <a href={pathFor(p)}>
           <h3>{p.model}</h3>
         </a>
@@ -183,7 +184,7 @@ function Collection({ category = "all", saved, toggle, items, supplierLoading, o
                   .map((p) => p.brand),
               ),
             ].map((b) => (
-              <option key={b}>{b}</option>
+              <option key={b} value={b}>{b === "Bespoke concept" ? "Express Diamonds" : b}</option>
             ))}
           </select>
         </label>
@@ -258,7 +259,7 @@ function Product({ p, saved, toggle, items }) {
             </div>}
           </div>
           <div className="product-copy">
-            <p className="eyebrow">{p.brand}</p>
+            <p className="eyebrow">{brandLabel(p)}</p>
             <h1>{p.model}</h1>
             {p.reference && <p className="reference">Ref. {p.reference}</p>}
             <p className="availability">Availability, exact details and pricing on inquiry.</p>
