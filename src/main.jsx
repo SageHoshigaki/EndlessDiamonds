@@ -15,6 +15,7 @@ import {
   Gem,
 } from "lucide-react";
 import "./styles.css";
+import { whatsappLink, productMessage } from "./lib/catalog.js";
 
 const products = [
   {
@@ -455,6 +456,7 @@ function App() {
           >
             Bespoke
           </button>
+          <a href="/catalog.html#/collections" onClick={() => setMenu(false)}>Catalog</a>
           <a href="#philosophy" onClick={() => setMenu(false)}>
             Our philosophy
           </a>
@@ -572,6 +574,7 @@ function App() {
               </button>
             ))}
           </div>
+          <a className="text-link catalog-link" href="/catalog.html#/collections">Explore the full catalog <ArrowRight size={16} /></a>
           <div className="product-grid">
             {filtered.length === 0 && (
               <p className="empty-collection">
@@ -756,14 +759,22 @@ function App() {
                   An iconic design selected for the Express Diamonds edit.
                   Explore the full specifications on the official house website.
                 </p>
-                <a
-                  className="button button-dark"
-                  href={selected.source}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Discover at {selected.brand} <ArrowRight size={16} />
-                </a>
+                {(() => {
+                  const inquiry = whatsappLink(
+                    import.meta.env.VITE_WHATSAPP_NUMBER,
+                    productMessage(
+                      { brand: selected.brand, model: selected.name, reference: null, id: selected.id, status: "reference" },
+                      `${location.origin}/catalog.html#/collections`,
+                    ),
+                  );
+                  return inquiry ? (
+                    <a className="button button-dark" href={inquiry} target="_blank" rel="noopener noreferrer">
+                      Make an Inquiry <ArrowRight size={16} />
+                    </a>
+                  ) : (
+                    <><button className="button button-dark" disabled>Make an Inquiry</button><p className="muted">WhatsApp inquiries will be available once the business number is connected.</p></>
+                  );
+                })()}
                 <button
                   className="text-link"
                   aria-pressed={saved.includes(selected.id)}

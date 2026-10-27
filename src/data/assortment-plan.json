@@ -1,0 +1,15 @@
+{
+  "note": "Acquisition targets, not inventory. Existing three-category taxonomy requires watches to exceed 100 to reach 75%.",
+  "targets": {
+    "watches": 600,
+    "diamonds": 100,
+    "fine-jewelry": 100
+  },
+  "watchShare": 0.75,
+  "inspirationSources": [
+    "https://www.mintimepieces.com/",
+    "https://www.rolex.com/watches",
+    "https://www.patek.com/en/collection"
+  ],
+  "missing": "720 additional researched records to reach the 800-record plan; all local stock, exact configurations and image rights still require owner confirmation."
+}

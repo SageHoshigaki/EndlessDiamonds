@@ -1,0 +1,2325 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "rolex-datejust",
+      "category": "watches",
+      "brand": "Rolex",
+      "model": "Datejust",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Datejust is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
+      "imagery": [
+        {
+          "src": "/images/rolex-datejust.png",
+          "alt": "Rolex Datejust watch photographed for the earlier Express Diamonds site; configuration is representative, not verified inventory",
+          "rights": "Existing user project asset; license and ownership not independently verified",
+          "placeholder": true,
+          "representation": "editorial-photo",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.rolex.com/watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; no stock or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-5811-1g-001",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 5811/1G-001",
+      "reference": "5811/1G-001",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 5811/1G-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/patek-nautilus-white.png",
+          "alt": "Patek Philippe Nautilus watch image from the earlier Express Diamonds site; confirm exact configuration",
+          "rights": "Existing user project asset; license and ownership not independently verified",
+          "placeholder": true,
+          "representation": "editorial-photo",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "audemars-piguet-royal-oak-selfwinding",
+      "category": "watches",
+      "brand": "Audemars Piguet",
+      "model": "Royal Oak Selfwinding",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "A Royal Oak Selfwinding collection reference for inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/ap-royal-oak.png",
+          "alt": "Audemars Piguet Royal Oak watch photo from the previous site; representative only, exact configuration not verified",
+          "rights": "Existing user project asset; license and ownership not independently verified",
+          "placeholder": true,
+          "representation": "editorial-photo",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.audemarspiguet.com/us/en/collections/royal-oak-collection",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; local stock and exact configuration not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "cartier-love-bracelet",
+      "category": "fine-jewelry",
+      "brand": "Cartier",
+      "model": "LOVE bracelet",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "LOVE bracelet is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/cartier-love.png",
+          "alt": "Cartier LOVE bracelet photo from the previous site; representative only, exact item not verified",
+          "rights": "Existing user project asset; license and ownership not independently verified",
+          "placeholder": true,
+          "representation": "editorial-photo",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://int.cartier.com/en/sitemap.mobile.html",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "bespoke-concept-solitaire-study",
+      "category": "diamonds",
+      "brand": "Bespoke concept",
+      "model": "Solitaire study",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Solitaire study is a sample design direction for a bespoke conversation. Materials, dimensions, stone characteristics and pricing have not been specified.",
+      "imagery": [
+        {
+          "src": "/images/hero-ring.jpg",
+          "alt": "Editorial photograph of a diamond ring; inspiration only, not this proposed design",
+          "rights": "Existing user project asset; license and ownership not independently verified",
+          "placeholder": true,
+          "representation": "editorial-photo",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "original-concept",
+        "sourceUrl": null,
+        "reviewedOn": "2026-10-27",
+        "scope": "Original sample concept; not an existing inventory item",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "bespoke-concept-halo-study",
+      "category": "diamonds",
+      "brand": "Bespoke concept",
+      "model": "Halo study",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Halo study is a sample design direction for a bespoke conversation. Materials, dimensions, stone characteristics and pricing have not been specified.",
+      "imagery": [
+        {
+          "src": "/images/product-ring.jpg",
+          "alt": "Editorial photograph of a halo-style ring; inspiration only, not this proposed design",
+          "rights": "Existing user project asset; license and ownership not independently verified",
+          "placeholder": true,
+          "representation": "editorial-photo",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "original-concept",
+        "sourceUrl": null,
+        "reviewedOn": "2026-10-27",
+        "scope": "Original sample concept; not an existing inventory item",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "bespoke-concept-earring-study",
+      "category": "fine-jewelry",
+      "brand": "Bespoke concept",
+      "model": "Earring study",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Earring study is a sample design direction for a bespoke conversation. Materials, dimensions, stone characteristics and pricing have not been specified.",
+      "imagery": [
+        {
+          "src": "/images/product-studs.jpg",
+          "alt": "Editorial photograph of diamond earrings; inspiration only, not this proposed design",
+          "rights": "Existing user project asset; license and ownership not independently verified",
+          "placeholder": true,
+          "representation": "editorial-photo",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "original-concept",
+        "sourceUrl": null,
+        "reviewedOn": "2026-10-27",
+        "scope": "Original sample concept; not an existing inventory item",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "bespoke-concept-sculptural-bracelet-study",
+      "category": "fine-jewelry",
+      "brand": "Bespoke concept",
+      "model": "Sculptural bracelet study",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Sculptural bracelet study is a sample design direction for a bespoke conversation. Materials, dimensions, stone characteristics and pricing have not been specified.",
+      "imagery": [
+        {
+          "src": "/images/product-bracelet.jpg",
+          "alt": "Editorial photograph of a bracelet; inspiration only, not this proposed design",
+          "rights": "Existing user project asset; license and ownership not independently verified",
+          "placeholder": true,
+          "representation": "editorial-photo",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "original-concept",
+        "sourceUrl": null,
+        "reviewedOn": "2026-10-27",
+        "scope": "Original sample concept; not an existing inventory item",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "rolex-land-dweller",
+      "category": "watches",
+      "brand": "Rolex",
+      "model": "Land-Dweller",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Land-Dweller is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-blue.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Land-Dweller",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.rolex.com/watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; no stock or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "rolex-day-date",
+      "category": "watches",
+      "brand": "Rolex",
+      "model": "Day-Date",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Day-Date is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-blue.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Day-Date",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.rolex.com/watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; no stock or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "rolex-sky-dweller",
+      "category": "watches",
+      "brand": "Rolex",
+      "model": "Sky-Dweller",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Sky-Dweller is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-blue.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Sky-Dweller",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.rolex.com/watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; no stock or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "rolex-lady-datejust",
+      "category": "watches",
+      "brand": "Rolex",
+      "model": "Lady-Datejust",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Lady-Datejust is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-blue.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Lady-Datejust",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.rolex.com/watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; no stock or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "rolex-oyster-perpetual",
+      "category": "watches",
+      "brand": "Rolex",
+      "model": "Oyster Perpetual",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Oyster Perpetual is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-blue.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Oyster Perpetual",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.rolex.com/watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; no stock or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "rolex-cosmograph-daytona",
+      "category": "watches",
+      "brand": "Rolex",
+      "model": "Cosmograph Daytona",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Cosmograph Daytona is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-chronograph.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Cosmograph Daytona",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.rolex.com/watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; no stock or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "rolex-submariner",
+      "category": "watches",
+      "brand": "Rolex",
+      "model": "Submariner",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Submariner is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-diver.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Submariner",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.rolex.com/watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; no stock or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "rolex-sea-dweller",
+      "category": "watches",
+      "brand": "Rolex",
+      "model": "Sea-Dweller",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Sea-Dweller is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-diver.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Sea-Dweller",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.rolex.com/watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; no stock or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "rolex-gmt-master-ii",
+      "category": "watches",
+      "brand": "Rolex",
+      "model": "GMT-Master II",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "GMT-Master II is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-blue.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex GMT-Master II",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.rolex.com/watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; no stock or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "rolex-deepsea",
+      "category": "watches",
+      "brand": "Rolex",
+      "model": "Deepsea",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Deepsea is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-diver.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Deepsea",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.rolex.com/watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; no stock or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "rolex-yacht-master",
+      "category": "watches",
+      "brand": "Rolex",
+      "model": "Yacht-Master",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Yacht-Master is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-diver.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Yacht-Master",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.rolex.com/watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; no stock or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "rolex-explorer",
+      "category": "watches",
+      "brand": "Rolex",
+      "model": "Explorer",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Explorer is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-diver.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Explorer",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.rolex.com/watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; no stock or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "rolex-air-king",
+      "category": "watches",
+      "brand": "Rolex",
+      "model": "Air-King",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Air-King is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-blue.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Air-King",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.rolex.com/watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; no stock or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "rolex-explorer-ii",
+      "category": "watches",
+      "brand": "Rolex",
+      "model": "Explorer II",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Explorer II is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-diver.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex Explorer II",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.rolex.com/watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; no stock or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "rolex-1908",
+      "category": "watches",
+      "brand": "Rolex",
+      "model": "1908",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "1908 is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-gold.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Rolex 1908",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.rolex.com/watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; no stock or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-grand-complications",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Grand complications",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Grand complications is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-chronograph.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Grand complications",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; no stock or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-complications",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Complications",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Complications is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-chronograph.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Complications",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; no stock or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-calatrava",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Calatrava",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Calatrava is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-gold.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Calatrava",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; no stock or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-gondolo",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Gondolo",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Gondolo is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-rectangular.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Gondolo",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; no stock or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-golden-ellipse",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Golden Ellipse",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Golden Ellipse is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-rectangular.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Golden Ellipse",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; no stock or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-cubitus",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Cubitus",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Cubitus is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-blue.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Cubitus",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; no stock or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-gold.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; no stock or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-aquanaut",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Aquanaut",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Aquanaut is included as a collection-level reference for your inquiry. The exact reference, configuration, condition and availability must be confirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-diver.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Aquanaut",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; no stock or specifications verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "bespoke-concept-pendant-study",
+      "category": "fine-jewelry",
+      "brand": "Bespoke concept",
+      "model": "Pendant study",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Pendant study is a sample design direction for a bespoke conversation. Materials, dimensions, stone characteristics and pricing have not been specified.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-jewelry-pendant.png",
+          "alt": "AI-generated representative fine-jewelry studio photograph; not a photograph of Bespoke concept Pendant study",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "original-concept",
+        "sourceUrl": null,
+        "reviewedOn": "2026-10-27",
+        "scope": "Original sample concept; not an existing inventory item",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "bespoke-concept-signet-study",
+      "category": "fine-jewelry",
+      "brand": "Bespoke concept",
+      "model": "Signet study",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Signet study is a sample design direction for a bespoke conversation. Materials, dimensions, stone characteristics and pricing have not been specified.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-jewelry-signet.png",
+          "alt": "AI-generated representative fine-jewelry studio photograph; not a photograph of Bespoke concept Signet study",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "original-concept",
+        "sourceUrl": null,
+        "reviewedOn": "2026-10-27",
+        "scope": "Original sample concept; not an existing inventory item",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "bespoke-concept-three-stone-study",
+      "category": "diamonds",
+      "brand": "Bespoke concept",
+      "model": "Three-stone study",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Three-stone study is a sample design direction for a bespoke conversation. Materials, dimensions, stone characteristics and pricing have not been specified.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-diamond-solitaire.png",
+          "alt": "AI-generated representative diamonds studio photograph; not a photograph of Bespoke concept Three-stone study",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "original-concept",
+        "sourceUrl": null,
+        "reviewedOn": "2026-10-27",
+        "scope": "Original sample concept; not an existing inventory item",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "bespoke-concept-eternity-band-study",
+      "category": "diamonds",
+      "brand": "Bespoke concept",
+      "model": "Eternity band study",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Eternity band study is a sample design direction for a bespoke conversation. Materials, dimensions, stone characteristics and pricing have not been specified.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-diamond-band.png",
+          "alt": "AI-generated representative diamonds studio photograph; not a photograph of Bespoke concept Eternity band study",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "licensingSourceUrl": null,
+          "representation": "generated-concept"
+        }
+      ],
+      "provenance": {
+        "type": "original-concept",
+        "sourceUrl": null,
+        "reviewedOn": "2026-10-27",
+        "scope": "Original sample concept; not an existing inventory item",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "audemars-piguet-code-11-59-ultra-complication-universelle-26398bc-oo-d002cr-02",
+      "category": "watches",
+      "brand": "Audemars Piguet",
+      "model": "Code 11.59 Ultra-Complication Universelle 26398BC.OO.D002CR.02",
+      "reference": "26398BC.OO.D002CR.02",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Code 11.59 Ultra-Complication Universelle 26398BC.OO.D002CR.02 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-rectangular.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Audemars Piguet Code 11.59 Ultra-Complication Universelle 26398BC.OO.D002CR.02",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.audemarspiguet.com/us/en/collections/code-11-59-collection",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "audemars-piguet-code-11-59-ultra-complication-universelle-26398bc-oo-d002cr-04",
+      "category": "watches",
+      "brand": "Audemars Piguet",
+      "model": "Code 11.59 Ultra-Complication Universelle 26398BC.OO.D002CR.04",
+      "reference": "26398BC.OO.D002CR.04",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Code 11.59 Ultra-Complication Universelle 26398BC.OO.D002CR.04 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-blue.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Audemars Piguet Code 11.59 Ultra-Complication Universelle 26398BC.OO.D002CR.04",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.audemarspiguet.com/us/en/collections/code-11-59-collection",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "audemars-piguet-code-11-59-grande-sonnerie-supersonnerie-26397qs-oo-d002kb-02",
+      "category": "watches",
+      "brand": "Audemars Piguet",
+      "model": "Code 11.59 Grande Sonnerie Supersonnerie 26397QS.OO.D002KB.02",
+      "reference": "26397QS.OO.D002KB.02",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Code 11.59 Grande Sonnerie Supersonnerie 26397QS.OO.D002KB.02 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-chronograph.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Audemars Piguet Code 11.59 Grande Sonnerie Supersonnerie 26397QS.OO.D002KB.02",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.audemarspiguet.com/us/en/collections/code-11-59-collection",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "audemars-piguet-code-11-59-minute-repeater-supersonnerie-26395bc-oo-d009cr-01",
+      "category": "watches",
+      "brand": "Audemars Piguet",
+      "model": "Code 11.59 Minute Repeater Supersonnerie 26395BC.OO.D009CR.01",
+      "reference": "26395BC.OO.D009CR.01",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Code 11.59 Minute Repeater Supersonnerie 26395BC.OO.D009CR.01 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-chronograph.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Audemars Piguet Code 11.59 Minute Repeater Supersonnerie 26395BC.OO.D009CR.01",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.audemarspiguet.com/us/en/collections/code-11-59-collection",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "audemars-piguet-code-11-59-selfwinding-flying-tourbillon-chronograph-26399nb-oo-d009kb-01",
+      "category": "watches",
+      "brand": "Audemars Piguet",
+      "model": "Code 11.59 Selfwinding Flying Tourbillon Chronograph 26399NB.OO.D009KB.01",
+      "reference": "26399NB.OO.D009KB.01",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Code 11.59 Selfwinding Flying Tourbillon Chronograph 26399NB.OO.D009KB.01 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-chronograph.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Audemars Piguet Code 11.59 Selfwinding Flying Tourbillon Chronograph 26399NB.OO.D009KB.01",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.audemarspiguet.com/us/en/collections/code-11-59-collection",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "audemars-piguet-code-11-59-selfwinding-flying-tourbillon-26396bc-oo-d349kb-01",
+      "category": "watches",
+      "brand": "Audemars Piguet",
+      "model": "Code 11.59 Selfwinding Flying Tourbillon 26396BC.OO.D349KB.01",
+      "reference": "26396BC.OO.D349KB.01",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Code 11.59 Selfwinding Flying Tourbillon 26396BC.OO.D349KB.01 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-chronograph.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Audemars Piguet Code 11.59 Selfwinding Flying Tourbillon 26396BC.OO.D349KB.01",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.audemarspiguet.com/us/en/collections/code-11-59-collection",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "audemars-piguet-code-11-59-selfwinding-flying-tourbillon-26396nb-oo-d002cr-01",
+      "category": "watches",
+      "brand": "Audemars Piguet",
+      "model": "Code 11.59 Selfwinding Flying Tourbillon 26396NB.OO.D002CR.01",
+      "reference": "26396NB.OO.D002CR.01",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Code 11.59 Selfwinding Flying Tourbillon 26396NB.OO.D002CR.01 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-chronograph.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Audemars Piguet Code 11.59 Selfwinding Flying Tourbillon 26396NB.OO.D002CR.01",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.audemarspiguet.com/us/en/collections/code-11-59-collection",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "audemars-piguet-code-11-59-selfwinding-flying-tourbillon-openworked-26601nr-oo-d002kb-01",
+      "category": "watches",
+      "brand": "Audemars Piguet",
+      "model": "Code 11.59 Selfwinding Flying Tourbillon Openworked 26601NR.OO.D002KB.01",
+      "reference": "26601NR.OO.D002KB.01",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Code 11.59 Selfwinding Flying Tourbillon Openworked 26601NR.OO.D002KB.01 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-chronograph.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Audemars Piguet Code 11.59 Selfwinding Flying Tourbillon Openworked 26601NR.OO.D002KB.01",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.audemarspiguet.com/us/en/collections/code-11-59-collection",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "audemars-piguet-code-11-59-perpetual-calendar-openworked-26443nb-oo-d002cr-01",
+      "category": "watches",
+      "brand": "Audemars Piguet",
+      "model": "Code 11.59 Perpetual Calendar Openworked 26443NB.OO.D002CR.01",
+      "reference": "26443NB.OO.D002CR.01",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Code 11.59 Perpetual Calendar Openworked 26443NB.OO.D002CR.01 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-chronograph.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Audemars Piguet Code 11.59 Perpetual Calendar Openworked 26443NB.OO.D002CR.01",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.audemarspiguet.com/us/en/collections/code-11-59-collection",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-5712-1r-001",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 5712/1R-001",
+      "reference": "5712/1R-001",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 5712/1R-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-blue.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5712/1R-001",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-5726-1a-014",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 5726/1A-014",
+      "reference": "5726/1A-014",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 5726/1A-014 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-gold.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5726/1A-014",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-5726a-001",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 5726A-001",
+      "reference": "5726A-001",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 5726A-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-blue.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5726A-001",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-5811-1460g-001",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 5811/1460G-001",
+      "reference": "5811/1460G-001",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 5811/1460G-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-chronograph.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5811/1460G-001",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-5740-1g-001",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 5740/1G-001",
+      "reference": "5740/1G-001",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 5740/1G-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-blue.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5740/1G-001",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-5980-1400g-010",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 5980/1400G-010",
+      "reference": "5980/1400G-010",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 5980/1400G-010 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-gold.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5980/1400G-010",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-5980-1400r-011",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 5980/1400R-011",
+      "reference": "5980/1400R-011",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 5980/1400R-011 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-blue.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5980/1400R-011",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-5980-60g-001",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 5980/60G-001",
+      "reference": "5980/60G-001",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 5980/60G-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-chronograph.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5980/60G-001",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-5990-1a-011",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 5990/1A-011",
+      "reference": "5990/1A-011",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 5990/1A-011 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-blue.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5990/1A-011",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-5990-1r-001",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 5990/1R-001",
+      "reference": "5990/1R-001",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 5990/1R-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-gold.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5990/1R-001",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-5990-1400g-001",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 5990/1400G-001",
+      "reference": "5990/1400G-001",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 5990/1400G-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-blue.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5990/1400G-001",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-5990-1421g-001",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 5990/1421G-001",
+      "reference": "5990/1421G-001",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 5990/1421G-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-chronograph.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5990/1421G-001",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-5990-1422g-001",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 5990/1422G-001",
+      "reference": "5990/1422G-001",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 5990/1422G-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-blue.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 5990/1422G-001",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-7010-1g-013",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 7010/1G-013",
+      "reference": "7010/1G-013",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 7010/1G-013 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-gold.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 7010/1G-013",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-7010-1r-013",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 7010/1R-013",
+      "reference": "7010/1R-013",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 7010/1R-013 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-blue.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 7010/1R-013",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-7010g-013",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 7010G-013",
+      "reference": "7010G-013",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 7010G-013 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-chronograph.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 7010G-013",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-7010r-013",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 7010R-013",
+      "reference": "7010R-013",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 7010R-013 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-blue.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 7010R-013",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-7118-1a-001",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 7118/1A-001",
+      "reference": "7118/1A-001",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 7118/1A-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-gold.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 7118/1A-001",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-7118-1a-011",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 7118/1A-011",
+      "reference": "7118/1A-011",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 7118/1A-011 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-blue.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 7118/1A-011",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-7118-1200a-001",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 7118/1200A-001",
+      "reference": "7118/1200A-001",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 7118/1200A-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-chronograph.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 7118/1200A-001",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-7118-1200a-011",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 7118/1200A-011",
+      "reference": "7118/1200A-011",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 7118/1200A-011 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-blue.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 7118/1200A-011",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-7118-1r-001",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 7118/1R-001",
+      "reference": "7118/1R-001",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 7118/1R-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-gold.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 7118/1R-001",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-7118-1r-010",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 7118/1R-010",
+      "reference": "7118/1R-010",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 7118/1R-010 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-blue.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 7118/1R-010",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-7118-1200r-001",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 7118/1200R-001",
+      "reference": "7118/1200R-001",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 7118/1200R-001 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-chronograph.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 7118/1200R-001",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "patek-philippe-nautilus-7118-1200r-010",
+      "category": "watches",
+      "brand": "Patek Philippe",
+      "model": "Nautilus 7118/1200R-010",
+      "reference": "7118/1200R-010",
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Nautilus 7118/1200R-010 is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-watch-blue.png",
+          "alt": "AI-generated representative watches studio photograph; not a photograph of Patek Philippe Nautilus 7118/1200R-010",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/all-watches",
+        "reviewedOn": "2026-10-27",
+        "scope": "Named reference on manufacturer collection page; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "cartier-love-ring",
+      "category": "fine-jewelry",
+      "brand": "Cartier",
+      "model": "LOVE ring",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "LOVE ring is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-jewelry-signet.png",
+          "alt": "AI-generated representative fine-jewelry studio photograph; not a photograph of Cartier LOVE ring",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://int.cartier.com/en/sitemap.mobile.html",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "cartier-trinity-bracelet",
+      "category": "fine-jewelry",
+      "brand": "Cartier",
+      "model": "Trinity bracelet",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Trinity bracelet is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-jewelry-cuff.png",
+          "alt": "AI-generated representative fine-jewelry studio photograph; not a photograph of Cartier Trinity bracelet",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://int.cartier.com/en/sitemap.mobile.html",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "cartier-trinity-ring",
+      "category": "fine-jewelry",
+      "brand": "Cartier",
+      "model": "Trinity ring",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Trinity ring is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-jewelry-signet.png",
+          "alt": "AI-generated representative fine-jewelry studio photograph; not a photograph of Cartier Trinity ring",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://int.cartier.com/en/sitemap.mobile.html",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "cartier-juste-un-clou-bracelet",
+      "category": "fine-jewelry",
+      "brand": "Cartier",
+      "model": "Juste un Clou bracelet",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Juste un Clou bracelet is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-jewelry-cuff.png",
+          "alt": "AI-generated representative fine-jewelry studio photograph; not a photograph of Cartier Juste un Clou bracelet",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://int.cartier.com/en/sitemap.mobile.html",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "cartier-juste-un-clou-ring",
+      "category": "fine-jewelry",
+      "brand": "Cartier",
+      "model": "Juste un Clou ring",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Juste un Clou ring is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-jewelry-signet.png",
+          "alt": "AI-generated representative fine-jewelry studio photograph; not a photograph of Cartier Juste un Clou ring",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://int.cartier.com/en/sitemap.mobile.html",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "cartier-clash-de-cartier-bracelet",
+      "category": "fine-jewelry",
+      "brand": "Cartier",
+      "model": "Clash de Cartier bracelet",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Clash de Cartier bracelet is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-jewelry-cuff.png",
+          "alt": "AI-generated representative fine-jewelry studio photograph; not a photograph of Cartier Clash de Cartier bracelet",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://int.cartier.com/en/sitemap.mobile.html",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "cartier-panth-re-de-cartier-ring",
+      "category": "fine-jewelry",
+      "brand": "Cartier",
+      "model": "Panthère de Cartier ring",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Panthère de Cartier ring is a design reference for your inquiry. Exact configuration, condition, availability and pricing require confirmation.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-jewelry-signet.png",
+          "alt": "AI-generated representative fine-jewelry studio photograph; not a photograph of Cartier Panthère de Cartier ring",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "manufacturer-reference",
+        "sourceUrl": "https://int.cartier.com/en/sitemap.mobile.html",
+        "reviewedOn": "2026-10-27",
+        "scope": "Collection name only; local stock not verified",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "bespoke-concept-emerald-cut-solitaire-study",
+      "category": "diamonds",
+      "brand": "Bespoke concept",
+      "model": "Emerald-cut solitaire study",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Emerald-cut solitaire study is a sample design direction for a bespoke conversation. Materials, dimensions, stone characteristics and pricing are unconfirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-diamond-solitaire.png",
+          "alt": "AI-generated representative diamonds studio photograph; not a photograph of Bespoke concept Emerald-cut solitaire study",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "original-concept",
+        "sourceUrl": null,
+        "reviewedOn": "2026-10-27",
+        "scope": "Original sample concept; not existing inventory",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "bespoke-concept-oval-solitaire-study",
+      "category": "diamonds",
+      "brand": "Bespoke concept",
+      "model": "Oval solitaire study",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Oval solitaire study is a sample design direction for a bespoke conversation. Materials, dimensions, stone characteristics and pricing are unconfirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-diamond-solitaire.png",
+          "alt": "AI-generated representative diamonds studio photograph; not a photograph of Bespoke concept Oval solitaire study",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "original-concept",
+        "sourceUrl": null,
+        "reviewedOn": "2026-10-27",
+        "scope": "Original sample concept; not existing inventory",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "bespoke-concept-pear-cut-halo-study",
+      "category": "diamonds",
+      "brand": "Bespoke concept",
+      "model": "Pear-cut halo study",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Pear-cut halo study is a sample design direction for a bespoke conversation. Materials, dimensions, stone characteristics and pricing are unconfirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-diamond-pear.png",
+          "alt": "AI-generated representative diamonds studio photograph; not a photograph of Bespoke concept Pear-cut halo study",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "original-concept",
+        "sourceUrl": null,
+        "reviewedOn": "2026-10-27",
+        "scope": "Original sample concept; not existing inventory",
+        "inventoryVerifiedAt": null
+      }
+    },
+    {
+      "id": "bespoke-concept-bezel-set-solitaire-study",
+      "category": "diamonds",
+      "brand": "Bespoke concept",
+      "model": "Bezel-set solitaire study",
+      "reference": null,
+      "status": "reference",
+      "price": null,
+      "availability": "unverified",
+      "specifications": null,
+      "description": "Bezel-set solitaire study is a sample design direction for a bespoke conversation. Materials, dimensions, stone characteristics and pricing are unconfirmed.",
+      "imagery": [
+        {
+          "src": "/images/catalog/concept-diamond-solitaire.png",
+          "alt": "AI-generated representative diamonds studio photograph; not a photograph of Bespoke concept Bezel-set solitaire study",
+          "rights": "AI-generated original project concept image",
+          "placeholder": true,
+          "representation": "generated-concept",
+          "licensingSourceUrl": null
+        }
+      ],
+      "provenance": {
+        "type": "original-concept",
+        "sourceUrl": null,
+        "reviewedOn": "2026-10-27",
+        "scope": "Original sample concept; not existing inventory",
+        "inventoryVerifiedAt": null
+      }
+    }
+  ]
+}
